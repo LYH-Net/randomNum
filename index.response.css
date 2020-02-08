@@ -1,0 +1,55 @@
+.box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 97vw;
+    height: 60vw;
+}
+
+.box .title {
+    opacity: 1;
+    margin-top: 5vw;
+    max-width: 93.33vw;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 10.67vw;
+    color: #4a4a4a;
+    font-family: STSongti-SC-Bold, Songti SC;
+    font-size: 7vw;
+    font-weight: bold;
+}
+
+.box .show {
+    opacity: 1;
+    margin-top: 3.2vw;
+    max-width: 61.2vw;
+    overflow: hidden;
+    text-align: center;
+    text-overflow: ellipsis;
+    line-height: 5.33vw;
+    color: #3b3e40;
+    font-size: 3vw;
+    font-weight: 400;
+}
+
+.box .showButton {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 5vw;
+    background-color: #1897f2;
+    padding-right: 11.07vw;
+    padding-left: 11.07vw;
+    height: 5.07vw;
+}
+
+.box .showButtonText {
+    opacity: 1;
+    text-align: center;
+    line-height: 3.07vw;
+    color: #ffffff;
+    font-size: 1.5vw;
+    font-weight: 400;
+}
